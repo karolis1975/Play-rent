@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+  <head>
+    <meta http-equiv="x-ua-compatible" content="ie=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Montserrat"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
+      integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="css/bootstrap.css" />
+    <link rel="stylesheet" href="css/styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.css"
+    />
+
+    <title>PlayRent</title>
+  </head>
+
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top">
+      <div class="container">
+        <a href="index.html" class="navbar-brand">
+          <img src="src/assets/logodarkblue.png" alt="Logo" />
+        </a>
+        <button
+          class="navbar-toggler"
+          data-toggle="collapse"
+          data-target="#navbarCollapse"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a href="index.html" class="nav-link">Pradinis</a>
+            </li>
+            <li class="nav-item">
+              <a href="#gallery" class="nav-link">Galerija</a>
+            </li>
+            <li class="nav-item">
+              <a href="#footer" class="nav-link">Kontaktai</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <div id="gallery">
+      <div class="row justify-content-center">
+        <div class="col-md-8">
+          <div class="row">
+            <a
+              href="src/assets/sim1.jpg"
+              data-toggle="lightbox"
+              data-gallery="example-gallery"
+              class="col-sm-4"
+            >
+              <img src="src/assets/sim1.jpg" class="img-fluid" />
+            </a>
+            <a
+              href="src/assets/sim2.jpg"
+              data-toggle="lightbox"
+              data-gallery="example-gallery"
+              class="col-sm-4"
+            >
+              <img src="src/assets/sim2.jpg" class="img-fluid" />
+            </a>
+            <a
+              href="src/assets/sim3.jpg"
+              data-toggle="lightbox"
+              data-gallery="example-gallery"
+              class="col-sm-4"
+            >
+              <img src="src/assets/sim3.jpg" class="img-fluid" />
+            </a>
+          </div>
+          <div class="row">
+            <a
+              href="src/assets/sim4.jpg"
+              data-toggle="lightbox"
+              data-gallery="example-gallery"
+              class="col-sm-4"
+            >
+              <img src="src/assets/sim4.jpg" class="img-fluid" />
+            </a>
+            <a
+              href="src/assets/sim5.jpg"
+              data-toggle="lightbox"
+              data-gallery="example-gallery"
+              class="col-sm-4"
+            >
+              <img src="src/assets/sim5.jpg" class="img-fluid" />
+            </a>
+            <a
+              href="src/assets/sim6.jpg"
+              data-toggle="lightbox"
+              data-gallery="example-gallery"
+              class="col-sm-4"
+            >
+              <img src="src/assets/sim6.jpg" class="img-fluid" />
+            </a>
+          </div>
+          <div class="row">
+            <a
+              href="src/assets/sim7.jpg"
+              data-toggle="lightbox"
+              data-gallery="example-gallery"
+              class="col-sm-4"
+            >
+              <img src="src/assets/sim7.jpg" class="img-fluid" />
+            </a>
+            <a
+              href="src/assets/sim8.jpg"
+              data-toggle="lightbox"
+              data-gallery="example-gallery"
+              class="col-sm-4"
+            >
+              <img src="src/assets/sim8.jpg" class="img-fluid" />
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <footer id="footer">
+      <div class="container d-flex flex-column justify-content-center">
+        <div class="row">
+          <div class="kontaktai col-lg-4 col-md-4 col-sm-4">
+            <ul>
+              <li>info@playrent.lt</li>
+              <li>+37064399988</li>
+              <li>
+                Vileišio g. 18, 2 korpusas<br />(laiką būtina sutarti iš anksto)
+              </li>
+              <li>Individualios veiklos Nr. 557832</li>
+            </ul>
+          </div>
+          <div class="smalllogo col-lg-4 col-md-4 col-sm-4">
+            <img src="src/assets/playrentlogowhite.png" alt="Logo" />
+            <p>
+              Linksmiausios pramogos Jūsų įmonės vakarėliui ar savaitgaliui su
+              draugais!
+            </p>
+          </div>
+          <div class="goup">
+            <a href="#gallery"><i class="fas fa-caret-up fa-3x"></i></a>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script src="src/js/jquery.min.js"></script>
+    <script src="src/js/popper.min.js"></script>
+    <script src="src/js/bootstrap.min.js"></script>
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="src/js/scrollReveal2.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.js.map"></script>
+    <script src="src/js/smoothScrolling.js"></script>
+    <script>
+      $(document).on("click", '[data-toggle="lightbox"]', function (event) {
+        event.preventDefault();
+        $(this).ekkoLightbox();
+      });
+    </script>
+  </body>
+</html>
